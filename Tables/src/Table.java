@@ -5,6 +5,7 @@ public class Table {
 	{
 		
 	System.out.println("Multiples of 10 are shown below are mine");
+		System.out.println("mine");
 	
 int i =10;
 
