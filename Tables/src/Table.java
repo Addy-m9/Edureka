@@ -4,7 +4,7 @@ public class Table {
 	public static void main(String [] args)
 	{
 		
-	System.out.println("Multiples of 10 are shown below");
+	System.out.println("Multiples of 10 are shown below are mine");
 	
 int i =10;
 
