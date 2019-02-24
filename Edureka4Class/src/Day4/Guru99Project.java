@@ -27,7 +27,7 @@ public void invokeBrowser()
 	{
 		
 		WebElement userIdBox=driver.findElement(By.name("uid")); // return type is a web element
-		userIdBox.sendKeys(userId);
+		userIdBox.sendKeys(userId); // to set the calue uid in the userid box
 		
 		
 		driver.findElement(By.name("password")).sendKeys(password);//method chaining
