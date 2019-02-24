@@ -17,7 +17,7 @@ public void invokeBrowser()
 		driver.manage().window().maximize();
 		// when op-en browser sometimes full screen and some times half so we maximize
 		
-		driver.manage().deleteAllCookies();
+		driver.manage().deleteAllCookies(); //bypasses cookies but doesnot delete physical files
 		driver.get("http://demo.guru99.com/V4/"); 
 	}
 	
