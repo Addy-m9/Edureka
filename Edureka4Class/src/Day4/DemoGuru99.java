@@ -10,6 +10,13 @@ public class DemoGuru99 {
 		
 		guru.invokeBrowser();
 		guru.login("mngr180343", "babYbAt");
+		guru.newCustomer();
+		String cusd=guru.getCustomerID();
+		
+		
+		
+		System.out.println("customer"+cusd);
+		guru.addAccount(cusd);
 		
 		
 	}
